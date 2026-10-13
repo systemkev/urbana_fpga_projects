@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1791222934" />
+    <testcase name="test_vsg" classname="test_vsg" file="C:\Users\kevin\Desktop\projects\fpga_class\lab04\sim\test_vsg.py" lineno="12" time="0.15430641174316406" sim_time_ns="20050.0" ratio_time="129936.27272839643" />
+  </testsuite>
+</testsuites>

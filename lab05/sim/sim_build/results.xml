@@ -1,0 +1,11 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1791913263" />
+    <testcase name="test_diagonal_line" classname="com" file="C:\Users\kevin\Desktop\projects\fpga_class\lab05\sim\com.py" lineno="24" time="0.06661438941955566" sim_time_ns="14262.612" ratio_time="214107.07392617778" />
+    <testcase name="test_horizontal_line" classname="com" file="C:\Users\kevin\Desktop\projects\fpga_class\lab05\sim\com.py" lineno="51" time="0.0591127872467041" sim_time_ns="14276.08" ratio_time="241505.78351887778" />
+    <testcase name="test_repeated_frames" classname="com" file="C:\Users\kevin\Desktop\projects\fpga_class\lab05\sim\com.py" lineno="77" time="0.032022953033447266" sim_time_ns="7892.248000000003" ratio_time="246455.9714950937" />
+    <testcase name="test_single_pixel" classname="com" file="C:\Users\kevin\Desktop\projects\fpga_class\lab05\sim\com.py" lineno="119" time="0.004353523254394531" sim_time_ns="1292.9279999999999" ratio_time="296984.2870817086" />
+    <testcase name="test_no_valid_pixels" classname="com" file="C:\Users\kevin\Desktop\projects\fpga_class\lab05\sim\com.py" lineno="140" time="0.00595855712890625" sim_time_ns="2094.275999999998" ratio_time="351473.67973367445" />
+    <testcase name="test_max_pixels" classname="com" file="C:\Users\kevin\Desktop\projects\fpga_class\lab05\sim\com.py" lineno="158" time="3.638669013977051" sim_time_ns="778032.892" ratio_time="213823.48573376096" />
+  </testsuite>
+</testsuites>

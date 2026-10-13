@@ -1,0 +1,45 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2026.1 (win64) Build 6511674 Tue Jun 16 11:02:23 MDT 2026
+| Date         : Wed Sep 23 14:24:34 2026
+| Host         : Jerry running 64-bit major release  (build 9200)
+| Command      : report_utilization -file obj/post_place_util_hierarchical.rpt -hierarchical -hierarchical_depth 4 -hierarchical_min_primitive_count 0
+| Design       : top_level
+| Device       : xc7s50csga324-1
+| Speed File   : -1
+| Design State : Fully Placed
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++---------------------+--------------------------+------------+------------+---------+------+-----+--------+--------+------------+
+|       Instance      |          Module          | Total LUTs | Logic LUTs | LUTRAMs | SRLs | FFs | RAMB36 | RAMB18 | DSP Blocks |
++---------------------+--------------------------+------------+------------+---------+------+-----+--------+--------+------------+
+| top_level           |                    (top) |        217 |        217 |       0 |    0 | 287 |      0 |      0 |          0 |
+|   (top_level)       |                    (top) |          2 |          2 |       0 |    0 |  31 |      0 |      0 |          0 |
+|   btn1_db           |                debouncer |          9 |          9 |       0 |    0 |  21 |      0 |      0 |          0 |
+|   mrgbc             |           rgb_controller |        122 |        122 |       0 |    0 | 120 |      0 |      0 |          0 |
+|     u_pwm_blue      |                      pwm |         41 |         41 |       0 |    0 |  40 |      0 |      0 |          0 |
+|       (u_pwm_blue)  |                      pwm |          0 |          0 |       0 |    0 |   8 |      0 |      0 |          0 |
+|       mc            |                counter_4 |         41 |         41 |       0 |    0 |  32 |      0 |      0 |          0 |
+|     u_pwm_green     |                    pwm_0 |         41 |         41 |       0 |    0 |  40 |      0 |      0 |          0 |
+|       (u_pwm_green) |                    pwm_0 |          0 |          0 |       0 |    0 |   8 |      0 |      0 |          0 |
+|       mc            |                counter_3 |         41 |         41 |       0 |    0 |  32 |      0 |      0 |          0 |
+|     u_pwm_red       |                    pwm_1 |         41 |         41 |       0 |    0 |  40 |      0 |      0 |          0 |
+|       (u_pwm_red)   |                    pwm_1 |          0 |          0 |       0 |    0 |   8 |      0 |      0 |          0 |
+|       mc            |                counter_2 |         41 |         41 |       0 |    0 |  32 |      0 |      0 |          0 |
+|   msc               |              evt_counter |          1 |          1 |       0 |    0 |  16 |      0 |      0 |          0 |
+|   mssc              | seven_segment_controller |         32 |         32 |       0 |    0 |  25 |      0 |      0 |          0 |
+|   my_spi_con        |                  spi_con |         28 |         28 |       0 |    0 |  42 |      0 |      0 |          0 |
+|   select_counter    |                  counter |         25 |         25 |       0 |    0 |  32 |      0 |      0 |          0 |
++---------------------+--------------------------+------------+------------+---------+------+-----+--------+--------+------------+
+* Note: The sum of lower-level cells may be larger than their parent cells total, due to cross-hierarchy LUT combining
+
+

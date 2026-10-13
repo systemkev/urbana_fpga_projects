@@ -1,0 +1,8 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1791221947" />
+    <testcase name="test_vsg" classname="test_vsg" file="C:\Users\kevin\Desktop\projects\fpga_class\lab04\sim\test_vsg.py" lineno="14" time="0.013023614883422852" sim_time_ns="0.0" ratio_time="0.0">
+      <failure error_type="AttributeError" error_msg="video_sig_gen contains no child object named clk" />
+    </testcase>
+  </testsuite>
+</testsuites>

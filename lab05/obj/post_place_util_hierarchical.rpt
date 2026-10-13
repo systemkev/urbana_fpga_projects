@@ -1,0 +1,57 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2026.1 (win64) Build 6511674 Tue Jun 16 11:02:23 MDT 2026
+| Date         : Mon Oct 12 19:40:33 2026
+| Host         : Jerry running 64-bit major release  (build 9200)
+| Command      : report_utilization -file obj/post_place_util_hierarchical.rpt -hierarchical -hierarchical_depth 4 -hierarchical_min_primitive_count 0
+| Design       : top_level
+| Device       : xc7s50csga324-1
+| Speed File   : -1
+| Design State : Fully Placed
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++-------------------+---------------------------------------------------+------------+------------+---------+------+------+--------+--------+------------+
+|      Instance     |                       Module                      | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs | RAMB36 | RAMB18 | DSP Blocks |
++-------------------+---------------------------------------------------+------------+------------+---------+------+------+--------+--------+------------+
+| top_level         |                                             (top) |        951 |        916 |       0 |   35 | 1030 |     64 |      2 |          8 |
+|   (top_level)     |                                             (top) |         38 |          3 |       0 |   35 |  324 |      0 |      0 |          1 |
+|   blue_ser        |                                   tmds_serializer |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          0 |
+|   com_m           |                                    center_of_mass |        259 |        259 |       0 |    0 |  395 |      0 |      0 |          0 |
+|     (com_m)       |                                    center_of_mass |         80 |         80 |       0 |    0 |  219 |      0 |      0 |          0 |
+|     div_x         |                                           divider |         89 |         89 |       0 |    0 |   89 |      0 |      0 |          0 |
+|     div_y         |                                         divider_4 |         91 |         91 |       0 |    0 |   87 |      0 |      0 |          0 |
+|   crw             |                                  camera_registers |        130 |        130 |       0 |    0 |  104 |      0 |      0 |          0 |
+|     (crw)         |                                  camera_registers |         14 |         14 |       0 |    0 |   42 |      0 |      0 |          0 |
+|     aia           |                                    addr_increment |          8 |          8 |       0 |    0 |    9 |      0 |      0 |          0 |
+|     sccb_c        |                                        i2c_master |        108 |        108 |       0 |    0 |   53 |      0 |      0 |          0 |
+|   frame_buffer    |      xilinx_true_dual_port_read_first_2_clock_ram |         30 |         30 |       0 |    0 |    0 |     32 |      0 |          0 |
+|   green_ser       |                                 tmds_serializer_0 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          0 |
+|   mssc            |                                         lab05_ssc |         37 |         37 |       0 |    0 |   25 |      0 |      0 |          0 |
+|   mt              |                                         threshold |        187 |        187 |       0 |    0 |    1 |      0 |      0 |          0 |
+|   nolabel_line153 |                                 pixel_reconstruct |         31 |         31 |       0 |    0 |   49 |      0 |      0 |          0 |
+|   popcat          |                                    image_sprite_2 |         33 |         33 |       0 |    0 |   13 |     32 |      1 |          0 |
+|     (popcat)      |                                    image_sprite_2 |         23 |         23 |       0 |    0 |    4 |      0 |      0 |          0 |
+|     image_rom     | xilinx_single_port_ram_read_first__parameterized0 |          8 |          8 |       0 |    0 |    9 |     32 |      0 |          0 |
+|     palette_rom   |                 xilinx_single_port_ram_read_first |          2 |          2 |       0 |    0 |    0 |      0 |      1 |          0 |
+|   red_ser         |                                 tmds_serializer_1 |          1 |          1 |       0 |    0 |    1 |      0 |      0 |          0 |
+|   registers       | xilinx_single_port_ram_read_first__parameterized1 |          7 |          7 |       0 |    0 |    2 |      0 |      1 |          0 |
+|   rgbtoycrcb_m    |                                      rgb_to_ycrcb |         56 |         56 |       0 |    0 |   50 |      0 |      0 |          7 |
+|   tmds_blue       |                                      tmds_encoder |          8 |          8 |       0 |    0 |   14 |      0 |      0 |          0 |
+|   tmds_green      |                                    tmds_encoder_2 |          4 |          4 |       0 |    0 |   14 |      0 |      0 |          0 |
+|   tmds_red        |                                    tmds_encoder_3 |         13 |         13 |       0 |    0 |   14 |      0 |      0 |          0 |
+|   vsg             |                                     video_sig_gen |        121 |        121 |       0 |    0 |   24 |      0 |      0 |          0 |
+|   wizard_hdmi     |                                   cw_hdmi_clk_wiz |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          0 |
+|   wizard_migcam   |                                   cw_fast_clk_wiz |          3 |          3 |       0 |    0 |    0 |      0 |      0 |          0 |
++-------------------+---------------------------------------------------+------------+------------+---------+------+------+--------+--------+------------+
+* Note: The sum of lower-level cells may be larger than their parent cells total, due to cross-hierarchy LUT combining
+
+

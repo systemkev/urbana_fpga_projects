@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1789409421" />
+    <testcase name="first_test" classname="test_counter" file="C:\Users\kevin\Desktop\projects\fpga_class\lab01\sim\test_counter.py" lineno="24" time="0.006986856460571289" sim_time_ns="315.0" ratio_time="45084.65313086504" />
+  </testsuite>
+</testsuites>

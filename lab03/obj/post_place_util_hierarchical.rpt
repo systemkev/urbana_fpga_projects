@@ -1,0 +1,40 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2026.1 (win64) Build 6511674 Tue Jun 16 11:02:23 MDT 2026
+| Date         : Tue Sep 29 14:00:17 2026
+| Host         : Jerry running 64-bit major release  (build 9200)
+| Command      : report_utilization -file obj/post_place_util_hierarchical.rpt -hierarchical -hierarchical_depth 4 -hierarchical_min_primitive_count 0
+| Design       : top_level
+| Device       : xc7s50csga324-1
+| Speed File   : -1
+| Design State : Fully Placed
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++------------------------+----------------------------------------------+------------+------------+---------+------+-----+--------+--------+------------+
+|        Instance        |                    Module                    | Total LUTs | Logic LUTs | LUTRAMs | SRLs | FFs | RAMB36 | RAMB18 | DSP Blocks |
++------------------------+----------------------------------------------+------------+------------+---------+------+-----+--------+--------+------------+
+| top_level              |                                        (top) |        181 |        180 |       0 |    1 | 251 |     16 |      0 |          0 |
+|   (top_level)          |                                        (top) |          0 |          0 |       0 |    0 |  11 |      0 |      0 |          0 |
+|   audio_bram           | xilinx_true_dual_port_read_first_2_clock_ram |         12 |         12 |       0 |    0 |   0 |     16 |      0 |          0 |
+|   counter_8khz_trigger |                                      counter |         33 |         33 |       0 |    0 |  32 |      0 |      0 |          0 |
+|   my_spi_con           |                                      spi_con |         28 |         27 |       0 |    1 |  42 |      0 |      0 |          0 |
+|   u_evt_counter        |                                  evt_counter |          5 |          5 |       0 |    0 |  16 |      0 |      0 |          0 |
+|   u_evt_counter_b      |                                evt_counter_0 |          5 |          5 |       0 |    0 |  16 |      0 |      0 |          0 |
+|   u_pwm                |                                          pwm |         43 |         43 |       0 |    0 |  40 |      0 |      0 |          0 |
+|     (u_pwm)            |                                          pwm |          0 |          0 |       0 |    0 |   8 |      0 |      0 |          0 |
+|     mc                 |                                    counter_1 |         43 |         43 |       0 |    0 |  32 |      0 |      0 |          0 |
+|   u_rx                 |                                 uart_receive |         27 |         27 |       0 |    0 |  46 |      0 |      0 |          0 |
+|   u_trans              |                                uart_transmit |         30 |         30 |       0 |    0 |  48 |      0 |      0 |          0 |
++------------------------+----------------------------------------------+------------+------------+---------+------+-----+--------+--------+------------+
+* Note: The sum of lower-level cells may be larger than their parent cells total, due to cross-hierarchy LUT combining
+
+
